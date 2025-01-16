@@ -220,6 +220,7 @@ h2 > span{
   width: 300px;
   margin: auto;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .pagination button{
