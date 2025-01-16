@@ -160,7 +160,9 @@ const TodoList = ({ searchQuery }) => {
                   toggleCompletion(todo.id);
                 }}
                 style={{
-                  backgroundColor: todo.completed ? "green" : "#c82333",
+                  backgroundColor: todo.completed ? "#08b008" : "#d6d606",
+                  // color: todo.completed ? "white" : "#08b008",
+
                   cursor: "pointer",
                 }}
               >
